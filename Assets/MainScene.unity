@@ -506,11 +506,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1833735577}
     m_Modifications:
-    - target: {fileID: 8881563422216446791, guid: f6caa666ce864b849a8f074250c0b309,
-        type: 3}
-      propertyPath: m_Name
-      value: DisplayButton
-      objectReference: {fileID: 0}
     - target: {fileID: 8881563422216446790, guid: f6caa666ce864b849a8f074250c0b309,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -549,7 +544,7 @@ PrefabInstance:
     - target: {fileID: 8881563422216446790, guid: f6caa666ce864b849a8f074250c0b309,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8881563422216446790, guid: f6caa666ce864b849a8f074250c0b309,
         type: 3}
@@ -616,6 +611,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 8881563422216446791, guid: f6caa666ce864b849a8f074250c0b309,
+        type: 3}
+      propertyPath: m_Name
+      value: DisplayButton
+      objectReference: {fileID: 0}
     - target: {fileID: 8881563422216446793, guid: f6caa666ce864b849a8f074250c0b309,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -650,6 +650,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_FloatArgument
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3640401684116028937, guid: f6caa666ce864b849a8f074250c0b309,
+        type: 3}
+      propertyPath: m_Text
+      value: DISPALY
       objectReference: {fileID: 0}
     - target: {fileID: 3467019426020805591, guid: f6caa666ce864b849a8f074250c0b309,
         type: 3}
@@ -716,11 +721,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3640401684116028937, guid: f6caa666ce864b849a8f074250c0b309,
-        type: 3}
-      propertyPath: m_Text
-      value: DISPALY
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6caa666ce864b849a8f074250c0b309, type: 3}
@@ -868,9 +868,9 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1850694135}
   - {fileID: 127918811}
   - {fileID: 402927612}
+  - {fileID: 1850694135}
   m_Father: {fileID: 1749163970}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -990,11 +990,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1833735577}
     m_Modifications:
-    - target: {fileID: 8881563422216446791, guid: f6caa666ce864b849a8f074250c0b309,
-        type: 3}
-      propertyPath: m_Name
-      value: PopupButton
-      objectReference: {fileID: 0}
     - target: {fileID: 8881563422216446790, guid: f6caa666ce864b849a8f074250c0b309,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1033,7 +1028,7 @@ PrefabInstance:
     - target: {fileID: 8881563422216446790, guid: f6caa666ce864b849a8f074250c0b309,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8881563422216446790, guid: f6caa666ce864b849a8f074250c0b309,
         type: 3}
@@ -1100,6 +1095,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 8881563422216446791, guid: f6caa666ce864b849a8f074250c0b309,
+        type: 3}
+      propertyPath: m_Name
+      value: PopupButton
+      objectReference: {fileID: 0}
     - target: {fileID: 8881563422216446793, guid: f6caa666ce864b849a8f074250c0b309,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -1134,6 +1134,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3640401684116028937, guid: f6caa666ce864b849a8f074250c0b309,
+        type: 3}
+      propertyPath: m_Text
+      value: POPUP
       objectReference: {fileID: 0}
     - target: {fileID: 3467019426020805591, guid: f6caa666ce864b849a8f074250c0b309,
         type: 3}
@@ -1201,11 +1206,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3640401684116028937, guid: f6caa666ce864b849a8f074250c0b309,
-        type: 3}
-      propertyPath: m_Text
-      value: POPUP
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6caa666ce864b849a8f074250c0b309, type: 3}
 --- !u!1001 &8881563422515215025
@@ -1215,11 +1215,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1833735577}
     m_Modifications:
-    - target: {fileID: 8881563422216446791, guid: f6caa666ce864b849a8f074250c0b309,
-        type: 3}
-      propertyPath: m_Name
-      value: PlayButton
-      objectReference: {fileID: 0}
     - target: {fileID: 8881563422216446790, guid: f6caa666ce864b849a8f074250c0b309,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1258,7 +1253,7 @@ PrefabInstance:
     - target: {fileID: 8881563422216446790, guid: f6caa666ce864b849a8f074250c0b309,
         type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8881563422216446790, guid: f6caa666ce864b849a8f074250c0b309,
         type: 3}
@@ -1325,6 +1320,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 8881563422216446791, guid: f6caa666ce864b849a8f074250c0b309,
+        type: 3}
+      propertyPath: m_Name
+      value: PlayButton
+      objectReference: {fileID: 0}
     - target: {fileID: 8881563422216446793, guid: f6caa666ce864b849a8f074250c0b309,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -1354,6 +1354,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3640401684116028937, guid: f6caa666ce864b849a8f074250c0b309,
+        type: 3}
+      propertyPath: m_Text
+      value: PLAY
       objectReference: {fileID: 0}
     - target: {fileID: 3467019426020805591, guid: f6caa666ce864b849a8f074250c0b309,
         type: 3}
@@ -1440,11 +1445,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3640401684116028937, guid: f6caa666ce864b849a8f074250c0b309,
-        type: 3}
-      propertyPath: m_Text
-      value: PLAY
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6caa666ce864b849a8f074250c0b309, type: 3}
