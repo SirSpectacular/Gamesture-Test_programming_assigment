@@ -1,31 +1,31 @@
 ﻿using UnityEngine;
-using TMPro;
+using UnityEngine.UI;
 
 public class FadingDisplay : MonoBehaviour
 {
-    private float _timeToDisplay= 0.0f;
-    private TextMeshProUGUI _textMesh;
+    private float _timeLeft = 0.0f;
+    private Text _text;
 
     public float timeOfFading = 1.0f;
 
     void Start()
     {
-        _textMesh = GetComponent<TextMeshProUGUI>();
-        _textMesh.color = new Color(1f, 1f, 1f, 0f);
+        _text = GetComponent<Text>();
+        _text.color = new Color(1f, 1f, 1f, 0f);
     }
 
     void Update()
     {
-        if(_timeToDisplay <= timeOfFading)
+        if(_timeLeft <= timeOfFading)
         {
-            _textMesh.color = new Color(1f, 1f, 1f, _timeToDisplay / timeOfFading);
+            _text.color = new Color(1f, 1f, 1f, _timeLeft / timeOfFading);
         }
-        _timeToDisplay -= Time.deltaTime;
+        _timeLeft -= Time.deltaTime;
     }
 
-    public void Display(float seconds)
+    public void Display(float seconds)  
     {
-        _textMesh.color = new Color(1f, 1f, 1f, 1f);
-        _timeToDisplay = seconds;
+        _text.color = new Color(1f, 1f, 1f, 1f);
+        _timeLeft = seconds; 
     }
 }
