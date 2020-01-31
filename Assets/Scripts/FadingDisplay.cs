@@ -20,7 +20,10 @@ public class FadingDisplay : MonoBehaviour
         {
             _text.color = new Color(1f, 1f, 1f, _timeLeft / timeOfFading);
         }
-        _timeLeft -= Time.deltaTime;
+        if (_timeLeft > 0.0f)
+        {
+            _timeLeft -= Time.deltaTime;
+        }
     }
 
     public void Display(float seconds)  
